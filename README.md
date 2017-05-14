@@ -1,2 +1,2 @@
 # test-normal-project
-Java简单项目，测试用
+Java Eclipse 简单项目，测试用
