@@ -11,8 +11,8 @@ extern "C"
  * Method:    test
  * Signature: (Ljava/lang/String;)Ljava/lang/String;
  */
-JNIEXPORT jstring JNICALL Java_com_wander_jni_JNITest_test
-  (JNIEnv *, jclass, jstring)  
+JNIEXPORT jstring JNICALL Java_com_wander_jni_JNITest_test(  
+        JNIEnv *env, jclass cls, jstring j_str) 
 {  
     const char *c_str = NULL;  
     char buff[128] = { 0 };  
